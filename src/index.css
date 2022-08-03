@@ -10,11 +10,11 @@
     text-decoration: none;
 }
  :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant : #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white:#fff;
+    --color-bg: #393939;
+    --color-bg-variant : #5F5F5F;
+    --color-primary: #1B1B1B;
+    --color-primary-variant: #FCFCFC/*rgba(77, 181, 255, 0.4)*/;
+    --color-white:#C3C3C3/*fff*/;
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
@@ -112,6 +112,8 @@
     display: block;
     width: 100%;
     object-fit: cover;
+    
+    
  }
 
  /* ================ MEDUIUM QUERIES (MEDIUM DEVICES) ================ */
